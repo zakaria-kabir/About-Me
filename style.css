@@ -1,0 +1,137 @@
+h3 {
+  color: royalblue;
+} /*pore deelte kore dibo*/
+
+.wrapper,
+.experience,
+.skillsdiv,
+.prof_languagediv {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  grid-auto-rows: minmax(100px, auto);
+}
+.top {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-auto-rows: minmax(100px, auto);
+  grid-column: 1 / span 2;
+}
+.pp {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+.toptext {
+  align-self: start;
+  justify-self: center;
+}
+.toptext>h1{
+    margin: 0;
+}
+.contactme {
+  align-self: center;
+}
+.aboutme {
+  grid-column: 1 / span 2;
+}
+.proj,
+.exp {
+  grid-column: 1 / span 2;
+}
+/* skill */
+.skillsdiv {
+  grid-column: 1 / span 2;
+}
+.skill {
+  text-align: center; /* Right-align text */
+  color: rgb(255, 255, 255); /* White text color */
+  border-radius: 20px;
+}
+.bar {
+  width: 100%; /* Full width */
+  border-radius: 20px;
+  background-color: rgb(207, 207, 207); /* Grey background */
+}
+.skillsdiv  p {
+  margin-bottom: 0;
+}
+
+/* programming skill */
+.c_cplus {
+  width: 95%;
+  background-color: #04aa6d;
+}
+.java {
+  width: 80%;
+  background-color: #00a6ff;
+}
+.py {
+  width: 70%;
+  background-color: #9c04aa;
+}
+.django {
+  width: 65%;
+  background-color: #74c905;
+}
+.html {
+  width: 90%;
+  background-color: #0c10ec;
+}
+.css {
+  width: 75%;
+  background-color: #ffc506;
+}
+.js {
+  width: 30%;
+  background-color: #ff0000;
+}
+.mysql {
+  width: 85%;
+  background-color: #f800cf;
+}
+/* professional skill */
+.professionalskills {
+  grid-column: 1 / span 2;
+}
+.ms {
+  width: 90%;
+  background-color: #00f8ba8f;
+}
+.teamwork {
+  width: 80%;
+  background-color: #ff599e;
+}
+.leadership {
+  width: 85%;
+  background-color: #99f8002f;
+}
+.time {
+  width: 90%;
+  background-color: #00b2f8;
+}
+.comminication {
+  width: 60%;
+  background-color: #56ff72;
+}
+/* language skill */
+.languagesdiv {
+  grid-column: 1 / span 2;
+}
+.language {
+  text-align: right; /* Right-align text */
+  color: white; /* White text color */
+  border-radius: 20px;
+}
+.bangla {
+  width: 90%;
+  background-color: #9b59b6;
+}
+.eng {
+  width: 75%;
+  background-color: #f39c12;
+}
+
+.footer{
+    text-align: end;
+}
