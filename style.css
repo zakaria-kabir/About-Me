@@ -37,6 +37,12 @@ hr {
   border-top: 1.6px dashed rgb(0, 0, 0);
   margin: 10px 0px 10px 0px;
 }
+h2:hover {
+  color: black;
+}
+a:hover {
+  color: #ea2027;
+}
 .wrapper,
 .experience,
 .skillsdiv,
@@ -75,8 +81,7 @@ hr {
 }
 .toptext > p {
   margin: 0;
-  font-style: italic;
-  font-size: 1.4rem;
+  font-size: 1.25rem;
   color: #303035;
 }
 .contactme {
@@ -216,6 +221,7 @@ hr {
 }
 .use-table td:hover {
   background-color: rgb(255, 255, 255);
+  font-weight: bold;
 }
 .use-table tr:hover {
   background-color: rgba(0, 204, 255, 0.336);
@@ -234,6 +240,9 @@ hr {
 .fa-brands {
   font-size: 30px;
   color: #00ccffdc;
+}
+.fa-brands:hover {
+  color: #104761;
 }
 .topicicon {
   color: #3d3d3d;
